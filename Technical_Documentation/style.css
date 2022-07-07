@@ -70,21 +70,21 @@ body{
 /*************************** main section ***************************/
 #main-doc{
   width: 100%;
-  max-height: 100vh;
+  max-height: 100%;
   position: relative;
-  /* margin-bottom: 40px; */
   padding: 0 0 530px 0;
 }
 /*************************** sidebar section ***************************/
 #navbar{
   min-width: 200px;
   width: 300px;
-  height: 100%;
+  height: 90%;
   position: fixed;
   top: 70px;
   left: 0;
   padding: 0 0 20px 0;
   border-right: 3px solid grey;
+  overflow: hidden;
 }
 #navbar header{
   padding: 15px;
@@ -92,7 +92,7 @@ body{
   text-align: center;
 }
 #navbar ul{
-  height: 80%;
+  height: 85%;
   padding-bottom: 20px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -114,8 +114,9 @@ body{
 
 /*************************** documentation section ***************************/
 #documentation{
-  max-width: 90%;
+  max-width: 85%;
   max-height: 100%;
+  margin: 0 auto;
   position: absolute;
   top: 80px;
   margin-left: 320px;
